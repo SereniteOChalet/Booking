@@ -483,23 +483,23 @@
     <div class="price-grid">
       <div class="price-card">
         <span class="eyebrow">Getaway</span>
-        <div class="amount">$475<sup> CAD</sup></div>
-        <div class="desc">2-night minimum stay<br>base rate · ~$237.50/night</div>
+        <div class="amount">$500<sup> CAD</sup></div>
+        <div class="desc">2-night minimum stay<br>base rate · ~$250.00/night</div>
       </div>
       <div class="price-card featured">
         <span class="eyebrow">Full Week</span>
         <div class="amount">5% off</div>
-        <div class="save">7 nights from $1,579</div>
+        <div class="save">7 nights from $1,662.5</div>
         <div class="desc">Automatically applied at checkout for stays of 7+ nights</div>
       </div>
       <div class="price-card">
         <span class="eyebrow">Full Month</span>
         <div class="amount">15% off</div>
-        <div class="save">30 nights from $6,056</div>
+        <div class="save">30 nights from $6,375</div>
         <div class="desc">Our best rate, for stays of 28 nights or more</div>
       </div>
     </div>
-    <p class="price-note">Taxes and a refundable damage deposit apply at booking.</p>
+    <p class="price-note"> An email will follow once booking reservation is received.</p>
 
     <div class="booker" id="book">
       <div class="booker-panel calc">
@@ -525,7 +525,7 @@
           <div class="calc-line discount" id="discountRow" style="display:none;"><span id="discountLabel">Discount</span><span id="discountVal">—</span></div>
           <div class="calc-line total"><span>Estimated Total</span><span id="totalVal">—</span></div>
         </div>
-        <p class="tier-note">Rate is $237.50/night, billed as $475 for a 2-night minimum stay. Stays of 7+ nights receive 5% off; stays of 28+ nights receive 15% off. Final total is confirmed by the host.</p>
+        <p class="tier-note">Rate is $250.00/night, billed as $500 for a 2-night minimum stay. Stays of 7+ nights receive 5% off; stays of 28+ nights receive 15% off. Final total is confirmed by the host.</p>
       </div>
       <div class="booker-panel">
         <h3>Request a reservation</h3>
@@ -601,7 +601,7 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 
   // ---- Pricing calculator ----
-  const NIGHTLY_RATE = 237.5; // = $475 for the 2-night base package. Edit this to change all pricing.
+  const NIGHTLY_RATE = 250.00; // = $500 for the 2-night base package. Edit this to change all pricing.
   const WEEK_DISCOUNT = 0.05;  // 5% off for 7+ nights
   const MONTH_DISCOUNT = 0.15; // 15% off for 28+ nights
   const fmt = n => '$' + n.toLocaleString('en-CA', {minimumFractionDigits:2, maximumFractionDigits:2});
