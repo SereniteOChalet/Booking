@@ -587,7 +587,7 @@
             </div>
           </div>
           <div class="field">
-            <label for="message">Message (optional)</label>
+            <label for="message">Tell us the reason for your stay</label>
             <textarea id="message" placeholder="Anything we should know?"></textarea>
           </div>
           <div class="submit-row">
@@ -713,6 +713,7 @@
       partySize: document.getElementById('partySize').value,
       checkin: checkin.value,
       checkout: checkout.value,
+      stay: document.gotElementByID('stay').value,
       nights: calcResult ? calcResult.nights : '',
       estimatedTotal: calcResult ? calcResult.total.toFixed(2) : '',
       message: document.getElementById('message').value,
