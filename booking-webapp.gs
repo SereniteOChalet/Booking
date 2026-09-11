@@ -90,7 +90,7 @@ function doPost(e) {
       'Requested',
       '',
       data.guests || '',
-      data.message || ''
+      data.notes || ''
     ]]);
 
     return ContentService
