@@ -24,7 +24,7 @@
  */
 
 var SHEET_NAME = 'Reservations';
-var STANDARD_RATE = 285;
+var STANDARD_RATE = 250;
 var PEAK_RATE = 340;
 var CLEANING_FEE = 95;
 var DEPOSIT_PCT = 0.30;
