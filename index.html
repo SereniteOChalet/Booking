@@ -672,7 +672,6 @@
     const inD = new Date(checkin.value), outD = new Date(checkout.value);
     let nights = Math.round((outD - inD) / 86400000);
     if(nights < 1){ nightsVal.textContent = 'Minimum stay 2 nights'; subtotalVal.textContent = '—'; totalVal.textContent = '—'; discountRow.style.display='none'; return null; }
-      <p class="form-status err" id="datesError" style="display:none; margin-top:6px;">Minimum stay is 2 nights.</p>
     if(nights < 2){ nights = 2; }
     const subtotal = NIGHTLY_RATE * nights;
     let rate = 0, label = '';
